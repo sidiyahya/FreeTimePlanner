@@ -26,16 +26,9 @@ To get started, you'll need the following:
 
 1. Clone the repository:
 
-   \`\`\`sh
-   git clone https://github.com/yourusername/FreeTimePlanner.git
-   cd FreeTimePlanner
-   \`\`\`
-
 2. Install the required packages:
 
-   \`\`\`sh
-   pip install -r requirements.txt
-   \`\`\`
+   `pip install -r requirements.txt`
 
 3. Set up your Google API credentials:
 
@@ -47,9 +40,7 @@ To get started, you'll need the following:
 
 Start the Streamlit app:
 
-\`\`\`sh
-streamlit run app.py
-\`\`\`
+`streamlit run app.py`
 
 ## Usage
 
@@ -60,15 +51,6 @@ streamlit run app.py
 
 ## Project Structure
 
-\`\`\`
-FreeTimePlanner/
-├── app.py                # Main Streamlit app
-├── routine_generator.py  # Logic for generating routines
-├── google_sheets.py      # Functions to interact with Google Sheets
-├── google_calendar.py    # Functions to interact with Google Calendar
-├── requirements.txt      # List of required packages
-└── README.md             # This file
-\`\`\`
 
 ## Contributing
 
